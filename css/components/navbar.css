@@ -29,13 +29,13 @@
 }
 
 .logo img {
-    height: 42px;
+    height: 64px;
     width: auto;
 }
 
 .logo-text {
     font-family: var(--font-serif);
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     font-weight: 400;
     letter-spacing: 0.25em;
     text-transform: uppercase;

@@ -48,11 +48,11 @@
 
     /* Scale logo down for mobile */
     .logo img {
-        height: 32px;
+        height: 48px;
     }
 
     .logo-text {
-        font-size: 0.8rem;
+        font-size: 1.1rem;
         letter-spacing: 0.15em;
     }
 
@@ -251,11 +251,11 @@
     }
 
     .logo-text {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 
     .logo img {
-        height: 28px;
+        height: 40px;
     }
 
     .mobile-nav a {
