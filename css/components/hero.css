@@ -8,6 +8,7 @@
     align-items: center;
     text-align: center;
     position: relative;
+    padding-top: 240px; /* Offset for the very tall transparent navbar */
     background: linear-gradient(135deg, var(--black) 0%, var(--near-black) 50%, var(--charcoal) 100%);
     overflow: hidden;
 }

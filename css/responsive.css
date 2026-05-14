@@ -34,7 +34,11 @@
     }
 
     .navbar.scrolled {
-        padding: 0.75rem var(--space-sm);
+        padding: 0.5rem var(--space-sm);
+    }
+    
+    .navbar.scrolled .logo img {
+        height: 80px;
     }
 
     /* Hide desktop nav, show hamburger */
@@ -48,12 +52,7 @@
 
     /* Scale logo down for mobile */
     .logo img {
-        height: 48px;
-    }
-
-    .logo-text {
-        font-size: 1.1rem;
-        letter-spacing: 0.15em;
+        height: 130px;
     }
 
     .logo {
@@ -74,6 +73,10 @@
     }
 
     /* --- Hero --- */
+    .hero {
+        padding-top: 160px;
+    }
+
     .hero h1 {
         font-size: clamp(1.8rem, 8vw, 2.8rem);
     }
@@ -250,12 +253,8 @@
         font-size: 1.6rem;
     }
 
-    .logo-text {
-        font-size: 0.9rem;
-    }
-
     .logo img {
-        height: 40px;
+        height: 110px;
     }
 
     .mobile-nav a {

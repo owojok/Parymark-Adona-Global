@@ -18,21 +18,10 @@ footer {
 }
 
 .footer-brand img {
-    height: 36px;
+    height: 100px;
     width: auto;
 }
 
-.footer-brand-text {
-    font-family: var(--font-serif);
-    font-size: 1rem;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: var(--white);
-}
-
-.footer-brand-text span {
-    color: var(--gold);
-}
 
 .footer-tagline {
     font-size: 0.8rem;
