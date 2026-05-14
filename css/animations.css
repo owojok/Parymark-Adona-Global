@@ -1,0 +1,25 @@
+/* animations.css — Scroll-triggered animations and keyframes */
+
+/* Fade in from below — triggered by IntersectionObserver */
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity var(--ease-animation), transform var(--ease-animation);
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Scroll indicator pulse */
+@keyframes scrollPulse {
+    0%, 100% {
+        opacity: 0.3;
+        height: 40px;
+    }
+    50% {
+        opacity: 1;
+        height: 60px;
+    }
+}

@@ -1,0 +1,264 @@
+/* responsive.css — All media queries, organised by breakpoint */
+
+/* ===== Tablet (≤1024px) ===== */
+@media (max-width: 1024px) {
+    .about,
+    .distinction-inner {
+        grid-template-columns: 1fr;
+        gap: var(--space-xl);
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .clients-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .methodology-steps {
+        flex-wrap: wrap;
+    }
+
+    .step {
+        flex: 1 1 40%;
+    }
+}
+
+/* ===== Mobile (≤768px) ===== */
+@media (max-width: 768px) {
+
+    /* --- Navbar --- */
+    .navbar {
+        padding: 0.75rem var(--space-sm);
+    }
+
+    .navbar.scrolled {
+        padding: 0.75rem var(--space-sm);
+    }
+
+    /* Hide desktop nav, show hamburger */
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    /* Scale logo down for mobile */
+    .logo img {
+        height: 32px;
+    }
+
+    .logo-text {
+        font-size: 0.8rem;
+        letter-spacing: 0.15em;
+    }
+
+    .logo {
+        gap: 0.5rem;
+    }
+
+    /* --- Sections --- */
+    section {
+        padding: var(--space-xl) var(--space-sm);
+    }
+
+    .section-header {
+        margin-bottom: var(--space-xl);
+    }
+
+    .section-title {
+        font-size: clamp(1.6rem, 6vw, 2.2rem);
+    }
+
+    /* --- Hero --- */
+    .hero h1 {
+        font-size: clamp(1.8rem, 8vw, 2.8rem);
+    }
+
+    .hero-subtitle {
+        font-size: 0.9rem;
+        margin-bottom: var(--space-lg);
+    }
+
+    .hero-tagline {
+        font-size: 0.6rem;
+        letter-spacing: 0.3em;
+    }
+
+    .hero-cta {
+        padding: 0.85rem 1.8rem;
+        font-size: 0.7rem;
+    }
+
+    .scroll-indicator {
+        bottom: var(--space-lg);
+    }
+
+    /* --- About --- */
+    .about-text {
+        font-size: 0.95rem;
+        line-height: 1.8;
+    }
+
+    .about-stats {
+        grid-template-columns: 1fr 1fr;
+        gap: var(--space-lg);
+    }
+
+    .stat-number {
+        font-size: 2rem;
+    }
+
+    /* --- Services --- */
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .service-card {
+        padding: var(--space-lg) var(--space-sm);
+    }
+
+    /* --- Sectors --- */
+    .sectors-list {
+        gap: 0.5rem;
+    }
+
+    .sector-tag {
+        padding: 0.6rem var(--space-sm);
+        font-size: 0.75rem;
+    }
+
+    /* --- Distinction --- */
+    .distinction {
+        padding: var(--space-xl) var(--space-sm);
+    }
+
+    .distinction-inner {
+        gap: var(--space-lg);
+    }
+
+    .distinction-list h4 {
+        font-size: 1.05rem;
+    }
+
+    .distinction-list p {
+        font-size: 0.8rem;
+    }
+
+    /* --- Methodology --- */
+    .methodology-steps {
+        flex-direction: column;
+        gap: var(--space-lg);
+    }
+
+    .methodology-steps::before {
+        display: none;
+    }
+
+    .step {
+        flex: 1 1 100%;
+    }
+
+    .step-number {
+        width: 3.2rem;
+        height: 3.2rem;
+        font-size: 1rem;
+    }
+
+    .step-title {
+        font-size: 1.1rem;
+    }
+
+    /* --- Clients --- */
+    .clients-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .client-card {
+        padding: var(--space-lg) var(--space-sm);
+    }
+
+    .client-card h4 {
+        font-size: 0.9rem;
+    }
+
+    /* --- CTA --- */
+    .cta-section {
+        padding: var(--space-3xl) var(--space-sm);
+    }
+
+    .cta-section h2 {
+        font-size: clamp(1.6rem, 6vw, 2.2rem);
+    }
+
+    .cta-section p {
+        font-size: 0.9rem;
+    }
+
+    .cta-btn {
+        padding: var(--space-sm) var(--space-lg);
+        font-size: 0.7rem;
+    }
+
+    /* --- Footer --- */
+    footer {
+        flex-direction: column;
+        gap: var(--space-xl);
+        padding: var(--space-xl) var(--space-sm);
+    }
+
+    .footer-brand img {
+        height: 28px;
+    }
+
+    .footer-brand-text {
+        font-size: 0.85rem;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: var(--space-lg);
+        width: 100%;
+    }
+
+    .footer-col h5 {
+        margin-bottom: var(--space-sm);
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: var(--space-xs);
+        text-align: center;
+        padding: var(--space-sm);
+    }
+}
+
+/* ===== Small phones (≤400px) ===== */
+@media (max-width: 400px) {
+    .about-stats {
+        grid-template-columns: 1fr;
+    }
+
+    .clients-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h1 {
+        font-size: 1.6rem;
+    }
+
+    .logo-text {
+        font-size: 0.7rem;
+    }
+
+    .logo img {
+        height: 28px;
+    }
+
+    .mobile-nav a {
+        font-size: 1.4rem;
+    }
+}

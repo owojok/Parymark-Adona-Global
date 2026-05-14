@@ -1,0 +1,57 @@
+/* methodology.css — Five-phase methodology timeline */
+
+.methodology-steps {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--space-lg);
+    margin-top: var(--space-2xl);
+    position: relative;
+}
+
+/* Horizontal timeline connector */
+.methodology-steps::before {
+    content: '';
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(to right, var(--gold), var(--dark-gray));
+}
+
+.step {
+    flex: 1;
+    text-align: center;
+    position: relative;
+    z-index: var(--z-base);
+}
+
+.step-number {
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid var(--gold);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-serif);
+    font-size: 1.2rem;
+    color: var(--gold);
+    margin: 0 auto var(--space-md);
+    background: var(--black);
+}
+
+.step-title {
+    font-family: var(--font-serif);
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--white);
+    margin-bottom: var(--space-xs);
+}
+
+.step-desc {
+    font-size: 0.8rem;
+    font-weight: 200;
+    color: var(--light-gray);
+    line-height: 1.6;
+}

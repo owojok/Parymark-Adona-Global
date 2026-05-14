@@ -1,0 +1,44 @@
+/* tokens.css — Single source of truth for design tokens */
+:root {
+    /* Colour palette */
+    --black: #0a0a0a;
+    --near-black: #111111;
+    --charcoal: #1a1a1a;
+    --dark-gray: #2a2a2a;
+    --mid-gray: #555555;
+    --light-gray: #999999;
+    --cream: #f5f0e8;
+    --gold: #c9a96e;
+    --gold-dim: #a08050;
+    --white: #ffffff;
+    --off-white: #f8f6f3;
+
+    /* Typography */
+    --font-sans: 'Inter', sans-serif;
+    --font-serif: 'Cormorant Garamond', serif;
+
+    /* Spacing scale */
+    --space-xs: 0.5rem;
+    --space-sm: 1rem;
+    --space-md: 1.5rem;
+    --space-lg: 2rem;
+    --space-xl: 3rem;
+    --space-2xl: 4rem;
+    --space-3xl: 6rem;
+    --space-4xl: 8rem;
+
+    /* Layout */
+    --max-width: 1400px;
+    --navbar-height: 4rem;
+
+    /* Transitions */
+    --ease-default: 0.3s ease;
+    --ease-smooth: 0.4s ease;
+    --ease-slow: 0.5s ease;
+    --ease-animation: 0.8s ease;
+
+    /* Z-index layers */
+    --z-base: 1;
+    --z-overlay: 2;
+    --z-nav: 1000;
+}

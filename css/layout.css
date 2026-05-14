@@ -1,0 +1,11 @@
+/* layout.css — Section containers and grid helpers */
+
+section {
+    padding: var(--space-4xl) var(--space-2xl);
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.section-header {
+    margin-bottom: var(--space-2xl);
+}

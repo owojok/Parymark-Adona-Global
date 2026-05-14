@@ -1,0 +1,25 @@
+/* typography.css — Font utilities and heading hierarchy */
+
+/* Utility class for serif font */
+.serif {
+    font-family: var(--font-serif);
+}
+
+/* Section label — small gold uppercase eyebrow */
+.section-label {
+    font-size: 0.7rem;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: var(--space-sm);
+    font-weight: 400;
+}
+
+/* Section title — large serif heading */
+.section-title {
+    font-family: var(--font-serif);
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    font-weight: 300;
+    line-height: 1.2;
+    color: var(--white);
+}

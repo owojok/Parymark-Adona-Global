@@ -1,0 +1,36 @@
+/* sectors.css — Industry sector tag pills */
+
+.sectors-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    margin-top: var(--space-xl);
+}
+
+.sector-tag {
+    padding: 0.75rem var(--space-md);
+    border: 1px solid var(--dark-gray);
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+    color: var(--light-gray);
+    transition: all var(--ease-default);
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+}
+
+.sector-tag svg {
+    width: 16px;
+    height: 16px;
+    opacity: 0.7;
+    transition: opacity var(--ease-default);
+}
+
+.sector-tag:hover {
+    border-color: var(--gold);
+    color: var(--gold);
+}
+
+.sector-tag:hover svg {
+    opacity: 1;
+}

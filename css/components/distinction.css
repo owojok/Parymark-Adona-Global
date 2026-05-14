@@ -1,0 +1,54 @@
+/* distinction.css — Distinction section with feature list */
+
+.distinction {
+    background: var(--near-black);
+    padding: var(--space-4xl) var(--space-2xl);
+    max-width: 100%;
+}
+
+.distinction-inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-3xl);
+    align-items: center;
+}
+
+.distinction-list {
+    list-style: none;
+}
+
+.distinction-list li {
+    padding: var(--space-md) 0;
+    border-bottom: 1px solid var(--dark-gray);
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-md);
+}
+
+.distinction-list li:first-child {
+    border-top: 1px solid var(--dark-gray);
+}
+
+.distinction-icon {
+    width: 8px;
+    height: 8px;
+    background: var(--gold);
+    flex-shrink: 0;
+    margin-top: var(--space-xs);
+}
+
+.distinction-list h4 {
+    font-family: var(--font-serif);
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--white);
+    margin-bottom: 0.3rem;
+}
+
+.distinction-list p {
+    font-size: 0.85rem;
+    font-weight: 200;
+    color: var(--light-gray);
+}
