@@ -1,12 +1,12 @@
 /* tokens.css — Single source of truth for design tokens */
 :root {
     /* Colour palette */
-    --black: #0a0a0a;
-    --near-black: #111111;
-    --charcoal: #1a1a1a;
-    --dark-gray: #2a2a2a;
-    --mid-gray: #555555;
-    --light-gray: #999999;
+    --black: #04061a;
+    --near-black: #0b102b;
+    --charcoal: #162040;
+    --dark-gray: #243154;
+    --mid-gray: #46567a;
+    --light-gray: #8a9cbf;
     --cream: #f5f0e8;
     --gold: #c9a96e;
     --gold-dim: #a08050;
