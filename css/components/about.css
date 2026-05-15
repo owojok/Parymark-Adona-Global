@@ -39,8 +39,9 @@
 }
 
 .stat-label {
-    font-size: 0.75rem;
-    color: var(--mid-gray);
+    font-size: 0.8rem;
+    color: var(--light-gray);
+    font-weight: 400;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     margin-top: var(--space-xs);

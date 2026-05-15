@@ -24,9 +24,9 @@ footer {
 
 
 .footer-tagline {
-    font-size: 0.8rem;
-    color: var(--mid-gray);
-    font-weight: 200;
+    font-size: 0.9rem;
+    color: var(--light-gray);
+    font-weight: 300;
     max-width: 300px;
 }
 
@@ -76,7 +76,7 @@ footer {
 }
 
 .footer-bottom p {
-    font-size: 0.7rem;
-    color: var(--mid-gray);
-    font-weight: 200;
+    font-size: 0.75rem;
+    color: var(--light-gray);
+    font-weight: 300;
 }

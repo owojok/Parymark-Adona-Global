@@ -34,7 +34,7 @@
 }
 
 .client-card p {
-    font-size: 0.75rem;
-    color: var(--mid-gray);
-    font-weight: 200;
+    font-size: 0.85rem;
+    color: var(--light-gray);
+    font-weight: 300;
 }
